@@ -1,7 +1,7 @@
 {% extends 'testapp/base.html' %}
 {% block body_block %}
 <div class="container" align='center'>
-    <h1>Do you want to really delete book:{{book.title}}?????</h1>
+    <h1>Do you really want to delete this book: {{book.title}}?</h1>
     <form method="post">
         {{form.as_p}}
         {% csrf_token %}
