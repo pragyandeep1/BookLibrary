@@ -1,0 +1,12 @@
+{% extends 'testapp/base.html' %}
+{% block body_block %}
+<h1>All Books Information</h1>
+{% for book in book_list %}
+    <ul>
+      <li>Title:<strong>{{book.title}}</strong></li>
+      <li>Author:<strong>{{book.author}}</strong></li>
+      <li>Pages:<strong>{{book.pages}}</strong></li>
+      <li>Price:<strong>{{book.price}}</strong></li>
+    </ul><hr>
+{% endfor %}
+{% endblock %}

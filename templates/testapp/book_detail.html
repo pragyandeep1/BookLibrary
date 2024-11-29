@@ -1,0 +1,14 @@
+{% extends 'testapp/base.html' %}
+{% block body_block %}
+    <div class="container">
+      <h1>{{book.title}} Information</h1>
+      <ul>
+        <li>Title:<strong> {{book.title}}</strong></li>
+        <li>Author:<strong> {{book.author}}</strong></li>
+        <li>Pages:<strong> {{book.pages}}</strong></li>
+        <li>Price:<strong> {{book.price}}</strong></li>
+      </ul>
+    </div>
+    <a class="btn btn-warning" href="/update/{{book.id}}">Update This Book Information</a>
+    <a class="btn btn-danger" href="/delete/{{book.id}}">Delete This Book Information</a>
+{% endblock %}
