@@ -47,3 +47,24 @@ h1{
     color: #fff;
     background-color: green;
 }
+
+/*Books Style*/
+.books-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .book {
+    flex: 1 1 calc(25% - 20px); /* Adjust percentage for column width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .book a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  .book a:hover {
+    text-decoration: underline;
+  }

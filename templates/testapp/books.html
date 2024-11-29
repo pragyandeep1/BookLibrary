@@ -1,11 +1,17 @@
 {% extends 'testapp/base.html' %}
 {% block body_block %}
 <h1 class="text-center">All Books Information From Customized Template File</h1>
-<ol>
+<div class="books-container">
     {% for book in books %}
-        <li><a href="/{{book.id}}">{{book.title}}</a></li>
+    <ol>
+      <li>Title: <a href="/{{book.id}}">{{book.title}}</a></li>
+      <li>Author: <strong>{{book.author}}</strong></li>
+      <li>Pages: <strong>{{book.pages}}</strong></li>
+      <li>Price: <strong>{{book.price}}</strong></li>
+    </ol>
+    <hr>
     {% endfor %}
-</ol>
+</div>
 <a href="/create" class="btn btn-success">Insert a new book</a>
 
 {% endblock %}
