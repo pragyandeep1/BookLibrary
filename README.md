@@ -27,6 +27,22 @@
 
 ![image](https://github.com/user-attachments/assets/5811c217-7c30-44b1-b8e2-f45da0cc3f59) 
 
+<strong>Updated Book Info</strong>
+
+![image](https://github.com/user-attachments/assets/8914176a-66bd-49ef-99ee-ff989f314a8c)
+
+<strong>Now, Book List</strong>
+
+![image](https://github.com/user-attachments/assets/4b7d61fc-a907-44bb-b962-86c89a1a2dc5)
+
+<strong>Deleting a book (Right Hand Side)</strong>
+
+![image](https://github.com/user-attachments/assets/027001ed-8e77-495b-b466-ea8c16d859b8)
+
 <strong>Confirm Delete</strong>
 
-![image](https://github.com/user-attachments/assets/aa0d5e66-748c-49dc-81b8-5674cd530ac9) 
+![image](https://github.com/user-attachments/assets/79e5ebdb-925d-42c6-b352-10a8c8e7c58f)
+
+<b>Final Book List </b>
+
+![image](https://github.com/user-attachments/assets/11ac685d-65fa-42fd-aa53-7ebd96738dd3)
